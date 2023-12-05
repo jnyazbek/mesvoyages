@@ -4,3 +4,7 @@
 accueil:
     path: /
     controller: App\Controller\AcceuilController::index
+
+voyages:
+    path: /voyages
+    controller: App\Controller\VoyagesController::index 
