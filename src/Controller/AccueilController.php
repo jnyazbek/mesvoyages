@@ -16,12 +16,12 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * @author joseph-nicolasyazbek
  */
-class AcceuilController extends AbstractController {
+class AccueilController extends AbstractController {
     /**
      * @Route("/", name="accueil")
      * @return Response
      */
     public function index() : Response{
-        return $this->render("pages/acceuil.html.twig");
+        return $this->render("pages/accueil.html.twig");
     }
 }
