@@ -12,3 +12,6 @@ voyages:
 voyages.sort: 
     path : /voyage/tri/{champ}/{ordre}
     controller : App\Controller\VoyagesController::sort
+voyages.findallequal:
+    path : /voyage/recherche/{champ}
+    controller : App\Controller\VoyagesController::filter
