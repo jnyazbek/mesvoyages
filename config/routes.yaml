@@ -7,4 +7,8 @@ accueil:
 
 voyages:
     path: /voyages
-    controller: App\Controller\VoyagesController::index 
+    controller: App\Controller\VoyagesController::index    
+
+voyages.sort: 
+    path : /voyage/tri/{champ}/{ordre}
+    controller : App\Controller\VoyagesController::sort
